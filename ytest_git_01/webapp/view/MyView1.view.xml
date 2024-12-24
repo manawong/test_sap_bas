@@ -1,0 +1,14 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="ytestgit01.controller.MyView1">
+    <Page id="page" title="{i18n>title}">
+    <content>
+        <sap.ui.layout.form:SimpleForm editable="true" layout="ResponsiveGridLayout" xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns:sap.ui.core="sap.ui.core" id="form0">
+            <sap.ui.layout.form:content>
+                <sap.ui.core:Title text="Please enter your data:" id="title0"/>
+                <Label text="Name" id="label0"/>
+                <Input width="100%" id="input0"/>
+                <Label text="Surname" id="label1"/>
+                <Input width="100%" id="input2"/></sap.ui.layout.form:content>
+        </sap.ui.layout.form:SimpleForm>
+    </content>
+    </Page>
+</mvc:View>
